@@ -226,14 +226,8 @@ Wᴇʟᴄᴏᴍᴇ ᴛᴏ {chat}.
 🎭 Gᴇɴʀᴇꜱ: {genres}
 📆 Yᴇᴀʀ: <a href={url}/releaseinfo>{year}</a>
 🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a>/10"""
- RunTime: {runtime} Minutes
- Release Info : {release_date}
- Countries : <code>{countries}</code>
- 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐁𝐲 : {message.from_user.mention}
-   
-  
+🔥 Rᴀᴛɪɴɢɢ: {runtime} Minutes
  
-
 
    
   
