@@ -221,9 +221,15 @@ Wᴇʟᴄᴏᴍᴇ ᴛᴏ {chat}.
 ꜱʜᴀʀᴇ & ꜱᴜᴩᴩᴏʀᴛ, ʀᴇqᴜᴇꜱᴛ ʏᴏᴜ ᴡᴀɴᴛᴇᴅ ᴍᴏᴠɪᴇꜱ"""
   
     IMDB_TEMPLATE = """<b>Qᴜᴇʀʏ: {query}</b>
+    
+🏷 Title</b>: <a href={url}>{title}</a>
+🎭 Genres: {genres}
+📆 Year: <a href={url}/releaseinfo>{year}</a>
+🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
+☀️ Languages : <code>{languages}</code>
+📀 RunTime: {runtime} Minutes
+📆 Release Info : {release_date}
+🎛 Countries : <code>{countries}</code>
+⏰ Result Shown in: {remaining_seconds} 
 
-🏷 Tɪᴛʟᴇ: <a href={url}>{title}</a>
-🎭 Gᴇɴʀᴇꜱ: {genres}
-📆 Yᴇᴀʀ: <a href={url}/releaseinfo>{year}</a>
-🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a>/10"""
-🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a>/10"""
+💁‍♂️ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐁𝐲 : {message.from_user.mention}
