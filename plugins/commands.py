@@ -36,7 +36,7 @@ async def start(client, message):
             InlineKeyboardButton("➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton("Sᴇᴀʀᴄʜ ☘️", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🎬", url="https:/InlineKeyboardButton("Cʜ/t.me/infinity_Lk")
+            InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🎬", url="https://t.me/infinity_Lk")
             ],[ 
             InlineKeyboardButton("CONTACT 🌐", url="https://t.me/about_nimsara")
             ],[
