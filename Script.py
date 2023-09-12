@@ -226,5 +226,4 @@ Wᴇʟᴄᴏᴍᴇ ᴛᴏ {chat}.
 🎭 Gᴇɴʀᴇꜱ: {genres}
 📆 Yᴇᴀʀ: <a href={url}/releaseinfo>{year}</a>
 🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a>/10"""
-📀 Rᴜɴᴛɪᴍᴇ: {runtime} Minutes
-🌐 Countries: <code>{countries}</code>
+🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a>/10"""
