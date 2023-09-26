@@ -38,12 +38,12 @@ async def start(client, message):
             InlineKeyboardButton("Sᴇᴀʀᴄʜ ☘️", switch_inline_query_current_chat=''), 
             InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🎬", url="https://t.me/infinity_Lk")
             ],[ 
+            InlineKeyboardButton("Hᴇʟᴩ 🕸🔥", callback_data="help"),
+            InlineKeyboardButton("Aʙᴏᴜᴛ ⚡", callback_data="about"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ 🌐", url="https://t.me/about_nimsara")
             ],[
             InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🍁", url="https://t.me/infinityx_LK")
             ],[          
-            InlineKeyboardButton("Hᴇʟᴩ 🕸🔥", callback_data="help"),
-            InlineKeyboardButton("Aʙᴏᴜᴛ ⚡", callback_data="about")
         ]]
         m = await message.reply_sticker("CAACAgUAAxkBAAEBvlVk7YKnYxIHVnKW2PUwoibIR2ygGAACBAADwSQxMYnlHW4Ls8gQHgQ") 
         await asyncio.sleep(2)
@@ -77,13 +77,13 @@ async def start(client, message):
             ],[
             InlineKeyboardButton("Sᴇᴀʀᴄʜ ☘️", switch_inline_query_current_chat=''), 
             InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🎬", url="https://t.me/infinity_Lk")
-            ],[ 
+            ],[
+            InlineKeyboardButton("Hᴇʟᴩ 🕸🔥", callback_data="help"),
+            InlineKeyboardButton("Aʙᴏᴜᴛ ⚡", callback_data="about"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ 🌐", url="https://t.me/about_nimsara")
             ],[
             InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🍁", url="https://t.me/infinityx_Lk")
             ],[               
-            InlineKeyboardButton("Hᴇʟᴩ 🕸🔥", callback_data="help"),
-            InlineKeyboardButton("Aʙᴏᴜᴛ ⚡", callback_data="about")
         ]]
         m = await message.reply_sticker("CAACAgUAAxkBAAEBvlVk7YKnYxIHVnKW2PUwoibIR2ygGAACBAADwSQxMYnlHW4Ls8gQHgQ")
         await asyncio.sleep(2)
